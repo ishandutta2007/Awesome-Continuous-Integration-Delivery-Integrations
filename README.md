@@ -1,33 +1,63 @@
-# Awesome-Continuous-Integration-Delivery-Integrations
+<div align="center">
 
-## Top Continuous Integration & Delivery Integrations Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Continuous Integration &amp; Delivery Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on CI/CD Pipeline Automation, Build Orchestration & Deployment Integrations*  
-**Last updated: March 2026**
+# ⚡ Awesome Continuous Integration & Delivery Integrations
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Continuous Integration & Delivery Integrations**. These tools automate the build, test, and deployment lifecycle—connecting source control events to pipeline execution, orchestrating parallel jobs, and enforcing quality gates before code reaches production.
+### 🚀 Top CI/CD Pipelines, Build Automation, GitOps Engines & Deployment Tools Ecosystem
 
-**Examples** include GitHub Actions, GitLab CI/CD, CircleCI, Jenkins, Travis CI, Bitbucket Pipelines, Azure Pipelines, TeamCity, Codefresh, and Argo Workflows (the category leaders).
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted CI/CD, open-source workflow engines, and community-driven build automation—ideal for platform teams, DevOps engineers, and organizations seeking transparent, vendor-neutral pipelines without per-minute cloud billing surprises.
+**A comprehensive, SEO-optimized curated directory of top-tier SaaS platforms, cloud runners, and open-source self-hosted CI/CD frameworks.**  
+*Empowering DevOps engineers, Site Reliability Engineers (SREs), and platform architects with automated build, test, and release toolchains.*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+**📅 Last updated: March 2026**
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+</div>
 
-## Sector Overview & Market Dynamics
+---
+
+## 📖 Table of Contents
+- [📌 Overview & Architecture](#-overview--architecture)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted CI/CD Platforms](#️-saas--hosted-cicd-platforms)
+- [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Overview & Architecture
+
+**Continuous Integration and Continuous Delivery (CI/CD)** forms the backbone of modern cloud engineering, DevOps practices, and agile software development life cycles (SDLC). CI/CD integration tools automate the entire code transit route:
+- 📥 **Source Control Triggers**: Listening for Git push, pull request, merge, and tag events.
+- ⚙️ **Automated Build & Compile**: Orchestrating multi-architecture compilation and container image builds.
+- 🧪 **Automated Testing & Quality Gates**: Parallel unit testing, integration tests, static code analysis (SAST), dynamic security tests (DAST), and code coverage metrics.
+- 🚀 **Progressive Delivery & GitOps**: Blue-green deployments, canary rollouts, container orchestration, and continuous configuration synchronization across hybrid clouds and Kubernetes.
+
+Whether you are seeking zero-maintenance managed SaaS runners or enterprise-grade open-source workflow engines without unpredictable cloud compute charges, this directory categorizes the industry leaders.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global Continuous Integration & Delivery (CI/CD) and automated deployment pipeline market is valued between **$4 billion and $13 billion**, expanding rapidly at a CAGR of 15–20% fueled by cloud-native adoption and DevSecOps consolidation. The sector exhibits a distinct two-tier market structure: it is **moderately concentrated at the enterprise layer** where hyperscalers and SCM-integrated powerhouses (Microsoft/GitHub, GitLab, Atlassian) capture dominant market share through unified developer platforms, yet **highly fragmented across the broader ecosystem** with specialized niche tools, GitOps controllers, and self-hosted open-source runners tailored for custom and air-gapped infrastructure.
 
-## SaaS/Hosted Platforms
+---
 
-| Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting) | Free Tier / Trial Limits |
+## ☁️ SaaS & Hosted CI/CD Platforms
+
+| Product | 🏢 Company Scale (Valuation / Revenue) | 📝 Description | 💳 Pricing (Starting) | 🎁 Free Tier / Trial Limits |
 |---------|------------------------------------|-------------|-------------------|--------------------------|
 | **[Azure Pipelines](https://azure.microsoft.com/en-us/products/devops/pipelines/)** | **~$3.1 Trillion** market cap (Microsoft) / **$245B+** annual revenue | Microsoft's enterprise CI/CD service with YAML pipelines. GitHub-hosted agents available with pay-as-you-go pricing (macOS Standard $0.062/min, Linux 8-core $0.022/min, Windows 8-core $0.042/min). | **Free plan**: 1 Microsoft-hosted job with 1,800 minutes/month + 1 self-hosted job with unlimited minutes; public open-source projects receive 10 free parallel jobs. |
 | **[GitHub Actions](https://github.com/features/actions)** | **~$100 Billion+** valuation (Microsoft subsidiary) / **$1B+** ARR | Native CI/CD embedded in GitHub with 20,000+ Marketplace actions. Self-hosted runner usage carries a $0.002/minute platform charge (drawn from free quota). | **Free plan**: 2,000 minutes/month for private repositories; **public repositories have 100% free unlimited minutes** (up to 20 concurrent jobs). |
@@ -38,10 +68,14 @@ The global Continuous Integration & Delivery (CI/CD) and automated deployment pi
 | **[TeamCity](https://www.jetbrains.com/teamcity/)** | **~$650 Million+** annual revenue / Bootstrapped multi-billion private tier (JetBrains) | JetBrains' continuous integration and build management engine with intelligent test execution and build history analysis. | Cloud: **$15/committer/month** (minimum 3 committers = $45/month, includes 24,000 build credits); On-premises Enterprise: **$2,399/year**. | **Professional (On-Premises)**: **Free forever** with 3 build agents, 100 build configurations, and unlimited users; **Cloud**: **14-day free trial** with full agent access. |
 | **[Codefresh](https://codefresh.io/)** | **~$50 Million** acquisition price (acquired by Octopus Deploy) / **~$85M** combined ARR | Kubernetes-native CI/CD and GitOps platform natively integrated with Argo CD and enterprise cluster workflows. | Starter SaaS: **$99/month**; Enterprise GitOps contracts start around **$1,250/month** ($15,000/year). | **Free plan**: 1 concurrent build, up to 500 build minutes/month, and community GitOps integration; **14-day free trial** for enterprise tiers. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
+## 🐙 Open-Source GitHub Projects
+
+*Ranked in descending order of community GitHub star counts.*
+
+| 📦 Project | 🌟 Star Badge | 📝 Description |
+|------------|---------------|----------------|
 | **[nektos/act](https://github.com/nektos/act)** | [![Stars](https://img.shields.io/github/stars/nektos/act?style=social&color=white)](https://github.com/nektos/act/stargazers) | Run GitHub Actions locally inside Docker containers. Enables rapid local testing and iterative development of CI workflows without pushing commits. |
 | **[Jenkins](https://github.com/jenkinsci/jenkins)** | [![Stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=social&color=white)](https://github.com/jenkinsci/jenkins/stargazers) | The industry-standard open-source automation server (MIT). Features 1,800+ community plugins supporting every language, cloud provider, and build toolchain. |
 | **[Argo CD](https://github.com/argoproj/argo-cd)** | [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers) | Declarative, GitOps continuous delivery tool for Kubernetes (CNCF graduated). Automatically synchronizes live application states with Git repository declarations. |
@@ -55,22 +89,37 @@ The global Continuous Integration & Delivery (CI/CD) and automated deployment pi
 | **[CDS](https://github.com/ovh/cds)** | [![Stars](https://img.shields.io/github/stars/ovh/cds?style=social&color=white)](https://github.com/ovh/cds/stargazers) | Enterprise-grade continuous delivery and DevOps automation platform written in Go by OVHcloud. Features complex pipeline DAGs, built-in artifact storage, and self-hosted worker clustering. |
 | **[PHP Censor](https://github.com/php-censor/php-censor)** | [![Stars](https://img.shields.io/github/stars/php-censor/php-censor?style=social&color=white)](https://github.com/php-censor/php-censor/stargazers) | Open-source self-hosted continuous integration server specifically tailored for PHP development teams and automated test suites. |
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+## 🤝 How to Contribute
 
-Star the repo if you find it useful!
+Contributions are welcome! Please help keep this curated list up-to-date and accurate:
 
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- CI/CD platforms handle source code, credentials, and deployment access; enforce least-privilege runner permissions, mask secrets in logs, and isolate self-hosted runners.
-- Pricing changes frequently: GitHub Actions introduced a self-hosted platform charge in March 2026, Bitbucket added a 100-runner free tier, and Azure Pipelines offers pay-as-you-go GitHub-hosted agents. Always verify against vendor pricing pages before committing.
+1. 🍴 **Fork the Repository** on GitHub.
+2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-tool`).
+3. 📝 **Add/Update Entries** following the established table schema (include tool name, website/repo link, verified starting pricing, and concrete free tier limits).
+4. 📬 **Submit a Pull Request** with a descriptive summary of your changes.
 
 ---
 
-**Made for DevOps engineers, platform teams, and developers building automated delivery pipelines.**  
-Let's make CI/CD integrations more open, automatable, and cost-predictable.
+## 💖 Support & Community
+
+Thank you for exploring and utilizing this curated CI/CD integrations guide! If you find this directory valuable for your engineering workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve discoverability for fellow DevOps engineers.
+- 🍴 **Fork and share** with your development and platform engineering teams.
+- ☕ **Sponsor or buy a coffee**: Show your appreciation and support continuous maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated** list — not an official vendor endorsement.
+- Continuous Integration & Delivery platforms manage production access, secrets, and deployment pipelines. Always follow the principle of least privilege (PoLP), mask environment variables, audit third-party runner actions, and isolate self-hosted runner infrastructure.
+- Vendor pricing structures and quotas evolve over time. Always verify current commercial pricing with respective official vendor portals before enterprise adoption.
