@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Delivery-Integrations/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -72,9 +72,9 @@ The global Continuous Integration & Delivery (CI/CD) and automated deployment pi
 
 ## 🐙 Open-Source GitHub Projects
 
-*Ranked in descending order of community GitHub star counts.*
+*Ranked in descending order of community GitHub Stars_Counts.*
 
-| 📦 Project | 🌟 Star Badge | 📝 Description |
+| 📦 Project | 🌟 Stars_Badge | 📝 Description |
 |------------|---------------|----------------|
 | **[nektos/act](https://github.com/nektos/act)** | [![Stars](https://img.shields.io/github/stars/nektos/act?style=social&color=white)](https://github.com/nektos/act/stargazers) | Run GitHub Actions locally inside Docker containers. Enables rapid local testing and iterative development of CI workflows without pushing commits. |
 | **[Jenkins](https://github.com/jenkinsci/jenkins)** | [![Stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=social&color=white)](https://github.com/jenkinsci/jenkins/stargazers) | The industry-standard open-source automation server (MIT). Features 1,800+ community plugins supporting every language, cloud provider, and build toolchain. |
